@@ -1,0 +1,111 @@
+.open-sans-body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* styles for header */
+.header-container {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1600px;                  /* main Div */
+    height: 800px;
+    margin-top: auto;
+}
+
+.header-content{
+    margin: 0px 230px 360px 875px;
+    text-align: end;               /* Content Div */
+    text-wrap: wrap;
+    line-height: auto;
+}
+
+
+.header-title{
+    font-size: 65px;
+    font-weight: 700;              /* H2 title */       
+    margin-bottom: 24px;
+    padding: 216px 0px 0px 0px;
+    color: #FFFFFF;
+}
+
+.header-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;           /* Paragraph */
+    color: #FFFFFF;
+    line-height: 26px;
+    width: 495px;
+    text-align: end;
+}
+
+
+.h-button{
+    height: 64px;
+    width: 160px;
+    background-color: #FFFFFF;
+    color: #005FAC;              /* Button */
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}   /* End of the header */
+
+
+/* styles for main start */
+
+
+/* Section 1  start */
+.section-1{     
+    display: flex;
+    gap: 87px;
+    width: 100%;                   /* Section-1 main class */
+    height: 720px;
+    margin: 131px 320px 130px 205px; 
+}
+
+.s1-div-1{
+    width: 50%;
+    height: 720px;      /* image div */
+    color: #cccccc;
+}
+
+.s1-div-2{
+    width: 50%;
+    height: 400px;  
+    text-align: start; 
+    margin: 240px 320px 85px 85px;   /* content div */
+}
+
+.content-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;  /* H2 header */
+    line-height: 47px;
+    color: #151414;
+}
+
+.content-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;  /* Paragraph */
+    line-height: 26px;
+    color: #444343;
+}
+
+.s1-div-2-ul{
+    font-size: 16px;
+    word-spacing: 10px;     /* ul-unordered list */
+    line-height: 26px;
+    color: #444343;
+    /* margin-right: 30px; */
+    
+}
+
+
+.check-mark{
+    color: #16D887;      /* check mark */
+}
+/* End of Section 1 */
