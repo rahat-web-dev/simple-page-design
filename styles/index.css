@@ -193,4 +193,87 @@
 
 /* End of Section 3 */
 
+/* styles of footer start */
+footer{
+    background-color: #151414;
+    padding: 0px 230px 20px 230px;
+}
+
+.footer-container{
+    display: flex;
+    gap: 330px;
+    align-items: top;
+  
+    
+}
+
+/* container-01 styles */
+.title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #f8f8f8;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.footer-image{
+    display: flex;
+    gap: 16px;       /* div for images */
+    align-items: start;
+}
+
+.white-color{
+    color: #FFFFFF;/* shared colored for unclassified paragraph */
+}
+
+/* container-02 styles */
+.c-2-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.c2-input-type{
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 45px;
+    width: 325px;
+    background-color: #151414;
+}
+
+.c2-button{
+    background-color: #005FAC;
+    color: #FFFFFF;
+    height: 45px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-2{
+    margin-top: 130px;
+}
+
+.container-1{
+    margin-top: 130px;
+}
+
+/* styles for copyright */
+.copyright{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+
+.copyright-span{
+    background-color: crimson;
+}
 
