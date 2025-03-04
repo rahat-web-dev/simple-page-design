@@ -152,3 +152,45 @@
 }
 
 /* End of Section 2 */
+
+
+/* Section 3 start */
+.section-3{
+    margin: 0px 230px 130px 230px;     /* Section-3 main class */
+    border-radius: 8px;
+    padding: 59px 500px 59px  64px;
+    /* border: 1px solid brown; */
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-size: cover;
+
+}
+
+.s3-div-title{
+    font-size: 40px;
+    font-weight: 700; /* div title */
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    
+}
+
+.s3-div-button{
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    background-color: #FFFFFF;/* s3-divbutton */
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.s3-div-container{
+    text-align: start;
+    border-radius: 5px;
+    
+}
+
+/* End of Section 3 */
+
+
