@@ -4,22 +4,25 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    width: 100%;
+    /* text-wrap: wrap; */
 }
 
 /* styles for header */
 .header-container {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 1600px;                  /* main Div */
+    background-size: cover;         /* main Div */
+    width: 1600px;
     height: 800px;
     margin-top: auto;
+    /* text-wrap: wrap; */
 }
 
 .header-content{
     margin: 0px 230px 360px 875px;
     text-align: end;               /* Content Div */
-    text-wrap: wrap;
+    /* text-wrap: wrap; */
     line-height: auto;
 }
 
@@ -60,8 +63,9 @@
 /* Section 1  start */
 .section-1{     
     display: flex;
-    gap: 87px;
-    width: 100%;                   /* Section-1 main class */
+    /* flex-wrap: wrap; */
+    gap: 70px;
+    width: 1600px;                   /* Section-1 main class */
     height: 720px;
     margin: 131px 320px 130px 205px; 
 }
@@ -109,3 +113,42 @@
     color: #16D887;      /* check mark */
 }
 /* End of Section 1 */
+
+/* Section 2 start */
+.section-2{
+    margin: 0px 230px 130px 230px;     /* Section-2 main class */
+}
+
+.s2-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;  /*section title */
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.s2-div-container{
+    display: flex;        /* main div */
+    gap: 50px; 
+    align-items: center;
+    justify-content: center
+}
+
+.s2-content-div{
+    text-align: center;
+}
+
+.content-div-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #151414;  /* Content Div Title */
+}
+
+
+.content-div-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;  /* Content Div Description */
+}
+
+/* End of Section 2 */
